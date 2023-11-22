@@ -10,24 +10,22 @@ else:
 
 def serializedATN():
     return [
-        4,1,9,58,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,1,0,5,0,12,8,0,
+        4,1,9,53,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,1,0,5,0,12,8,0,
         10,0,12,0,15,9,0,1,0,1,0,1,1,1,1,1,1,1,2,1,2,1,2,1,2,1,2,1,2,5,2,
-        28,8,2,10,2,12,2,31,9,2,1,3,1,3,1,3,1,3,1,3,1,3,3,3,39,8,3,1,3,1,
-        3,1,3,5,3,44,8,3,10,3,12,3,47,9,3,1,4,1,4,1,4,1,4,1,4,1,4,1,4,3,
-        4,56,8,4,1,4,0,2,4,6,5,0,2,4,6,8,0,2,1,0,2,3,1,0,4,5,58,0,13,1,0,
-        0,0,2,18,1,0,0,0,4,21,1,0,0,0,6,38,1,0,0,0,8,55,1,0,0,0,10,12,3,
-        2,1,0,11,10,1,0,0,0,12,15,1,0,0,0,13,11,1,0,0,0,13,14,1,0,0,0,14,
-        16,1,0,0,0,15,13,1,0,0,0,16,17,5,0,0,1,17,1,1,0,0,0,18,19,3,4,2,
-        0,19,20,5,1,0,0,20,3,1,0,0,0,21,22,6,2,-1,0,22,23,3,6,3,0,23,29,
-        1,0,0,0,24,25,10,1,0,0,25,26,7,0,0,0,26,28,3,6,3,0,27,24,1,0,0,0,
-        28,31,1,0,0,0,29,27,1,0,0,0,29,30,1,0,0,0,30,5,1,0,0,0,31,29,1,0,
-        0,0,32,33,6,3,-1,0,33,39,3,8,4,0,34,35,5,6,0,0,35,36,3,6,3,0,36,
-        37,5,7,0,0,37,39,1,0,0,0,38,32,1,0,0,0,38,34,1,0,0,0,39,45,1,0,0,
-        0,40,41,10,2,0,0,41,42,7,1,0,0,42,44,3,8,4,0,43,40,1,0,0,0,44,47,
-        1,0,0,0,45,43,1,0,0,0,45,46,1,0,0,0,46,7,1,0,0,0,47,45,1,0,0,0,48,
-        56,5,8,0,0,49,50,7,0,0,0,50,56,3,8,4,0,51,52,5,6,0,0,52,53,3,4,2,
-        0,53,54,5,7,0,0,54,56,1,0,0,0,55,48,1,0,0,0,55,49,1,0,0,0,55,51,
-        1,0,0,0,56,9,1,0,0,0,5,13,29,38,45,55
+        28,8,2,10,2,12,2,31,9,2,1,3,1,3,1,3,1,3,1,3,1,3,5,3,39,8,3,10,3,
+        12,3,42,9,3,1,4,1,4,1,4,1,4,1,4,1,4,1,4,3,4,51,8,4,1,4,0,2,4,6,5,
+        0,2,4,6,8,0,2,1,0,2,3,1,0,4,5,52,0,13,1,0,0,0,2,18,1,0,0,0,4,21,
+        1,0,0,0,6,32,1,0,0,0,8,50,1,0,0,0,10,12,3,2,1,0,11,10,1,0,0,0,12,
+        15,1,0,0,0,13,11,1,0,0,0,13,14,1,0,0,0,14,16,1,0,0,0,15,13,1,0,0,
+        0,16,17,5,0,0,1,17,1,1,0,0,0,18,19,3,4,2,0,19,20,5,1,0,0,20,3,1,
+        0,0,0,21,22,6,2,-1,0,22,23,3,6,3,0,23,29,1,0,0,0,24,25,10,1,0,0,
+        25,26,7,0,0,0,26,28,3,6,3,0,27,24,1,0,0,0,28,31,1,0,0,0,29,27,1,
+        0,0,0,29,30,1,0,0,0,30,5,1,0,0,0,31,29,1,0,0,0,32,33,6,3,-1,0,33,
+        34,3,8,4,0,34,40,1,0,0,0,35,36,10,1,0,0,36,37,7,1,0,0,37,39,3,8,
+        4,0,38,35,1,0,0,0,39,42,1,0,0,0,40,38,1,0,0,0,40,41,1,0,0,0,41,7,
+        1,0,0,0,42,40,1,0,0,0,43,51,5,8,0,0,44,45,7,0,0,0,45,51,3,8,4,0,
+        46,47,5,6,0,0,47,48,3,4,2,0,48,49,5,7,0,0,49,51,1,0,0,0,50,43,1,
+        0,0,0,50,44,1,0,0,0,50,46,1,0,0,0,51,9,1,0,0,0,4,13,29,40,50
     ]
 
 class CalcParser ( Parser ):
@@ -320,28 +318,12 @@ class CalcParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 38
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,2,self._ctx)
-            if la_ == 1:
-                self.state = 33
-                self.last()
-                pass
-
-            elif la_ == 2:
-                self.state = 34
-                self.match(CalcParser.T__5)
-                self.state = 35
-                self.mul(0)
-                self.state = 36
-                self.match(CalcParser.T__6)
-                pass
-
-
+            self.state = 33
+            self.last()
             self._ctx.stop = self._input.LT(-1)
-            self.state = 45
+            self.state = 40
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,3,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,2,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
                     if self._parseListeners is not None:
@@ -349,11 +331,11 @@ class CalcParser ( Parser ):
                     _prevctx = localctx
                     localctx = CalcParser.MulContext(self, _parentctx, _parentState)
                     self.pushNewRecursionContext(localctx, _startState, self.RULE_mul)
-                    self.state = 40
-                    if not self.precpred(self._ctx, 2):
+                    self.state = 35
+                    if not self.precpred(self._ctx, 1):
                         from antlr4.error.Errors import FailedPredicateException
-                        raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
-                    self.state = 41
+                        raise FailedPredicateException(self, "self.precpred(self._ctx, 1)")
+                    self.state = 36
                     localctx.op = self._input.LT(1)
                     _la = self._input.LA(1)
                     if not(_la==4 or _la==5):
@@ -361,11 +343,11 @@ class CalcParser ( Parser ):
                     else:
                         self._errHandler.reportMatch(self)
                         self.consume()
-                    self.state = 42
+                    self.state = 37
                     self.last() 
-                self.state = 47
+                self.state = 42
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,3,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,2,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -422,17 +404,17 @@ class CalcParser ( Parser ):
         self.enterRule(localctx, 8, self.RULE_last)
         self._la = 0 # Token type
         try:
-            self.state = 55
+            self.state = 50
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [8]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 48
+                self.state = 43
                 localctx.num = self.match(CalcParser.NUMBER)
                 pass
             elif token in [2, 3]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 49
+                self.state = 44
                 localctx.op = self._input.LT(1)
                 _la = self._input.LA(1)
                 if not(_la==2 or _la==3):
@@ -440,16 +422,16 @@ class CalcParser ( Parser ):
                 else:
                     self._errHandler.reportMatch(self)
                     self.consume()
-                self.state = 50
+                self.state = 45
                 self.last()
                 pass
             elif token in [6]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 51
+                self.state = 46
                 self.match(CalcParser.T__5)
-                self.state = 52
+                self.state = 47
                 self.sum_(0)
-                self.state = 53
+                self.state = 48
                 self.match(CalcParser.T__6)
                 pass
             else:
@@ -483,7 +465,7 @@ class CalcParser ( Parser ):
 
     def mul_sempred(self, localctx:MulContext, predIndex:int):
             if predIndex == 1:
-                return self.precpred(self._ctx, 2)
+                return self.precpred(self._ctx, 1)
          
 
 
